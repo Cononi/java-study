@@ -12,8 +12,17 @@ public class MainGameMethod {
                 .gameOver(true)
                 .build();
         builderFinalScore(mainGameBuilder);
+
+        System.out.println("Your Builder and Result Final Score War " + builderFinalScoreResult(mainGameBuilder));
     }
 
+    public static int builderFinalScoreResult(MainGameBuilder mainGameBuilder) {
+        int finalScore = mainGameBuilder.score;
+        if(mainGameBuilder.gameOver){
+            finalScore += (mainGameBuilder.levelCompleted * mainGameBuilder.bonus);
+        }
+        return finalScore;
+    }
     public static void builderFinalScore(MainGameBuilder mainGameBuilder) {
         int finalScore = mainGameBuilder.score;
         if(mainGameBuilder.gameOver){
