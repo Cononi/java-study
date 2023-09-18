@@ -6,10 +6,10 @@
 3. [Record 클래스 추가](#Record)
 4. [Switch 표현식](#텍스트-블록의-변화)
 5. [instanceof 변수 추가](#instanceof-변수-추가)
-6. [DateTimeFormatter.ofPattern("B") 추가](#DateTimeFormatter.ofPattern("B")-추가)
-7. [Stream.toList() 추가](#Stream.toList()-추가)
+6. [DateTimeFormatter.ofPattern("B") 추가](#datetimeformatterofpatternb-추가)
+7. [Stream.toList() 추가](#streamtoList-추가)
 
-
+---
 
 ## 텍스트 블록의 변화
 
